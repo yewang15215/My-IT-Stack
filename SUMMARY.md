@@ -16,6 +16,7 @@
     * [Haskell](编程语言/Haskell.md)
     * [HTML](编程语言/HTML.md)
     * [Python](编程语言/Python.md)
+    * [Java](编程语言/Java.md)
     * [JavaScript](编程语言/JavaScript.md)
     * [PHP](编程语言/PHP.md)
     * [Go](编程语言/Go.md)
