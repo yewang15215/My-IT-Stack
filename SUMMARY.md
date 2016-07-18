@@ -40,4 +40,8 @@
     * [Vagrant](运维/Vagrant.md)
 * [工具](工具/Tools.md)
 * [其他](其他/Others.md)
+    * [编码](其他/Encrypt.md)
+    * [编译](其他/Compile.md)
+    * [设计模式](其他/DesignPattern.md)
+    * [考试](其他/Examination.md)
 
