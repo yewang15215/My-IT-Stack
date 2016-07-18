@@ -24,4 +24,25 @@
 
 ## 防止SQL 注入
 * 使用[PDO](http://php.net/manual/zh/book.pdo.php) (PHP Data Objects)
+``` php
+$stmt = $pdo->prepare('SELECT * FROM employees WHERE name = :name');
+
+$stmt->execute(array('name' => $name));
+
+foreach ($stmt as $row) {
+    // do something with $row
+}
+```
+
 * 使用[MySQLi](http://php.net/manual/zh/book.mysqli.php) (MySQL Improved Extension)
+```
+$stmt = $dbConnection->prepare('SELECT * FROM employees WHERE name = ?');
+$stmt->bind_param('s', $name);
+
+$stmt->execute();
+
+$result = $stmt->get_result();
+while ($row = $result->fetch_assoc()) {
+    // do something with $row
+}
+```
