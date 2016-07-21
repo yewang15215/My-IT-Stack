@@ -1,2 +1,11 @@
 # Docker
 
+## Docker 基础
+* Docker 三大核心概念
+    - 镜像 Image
+    - 容器 Container
+    - 仓库 Repository
+
+* 命令
+    - docker inspect IMAGE-ID
+        + 返回JSON 格式信息

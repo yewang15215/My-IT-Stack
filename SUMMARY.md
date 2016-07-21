@@ -44,4 +44,5 @@
     * [编译](其他/Compile.md)
     * [设计模式](其他/DesignPattern.md)
     * [考试](其他/Examination.md)
+    * [科学上网](其他/Proxy.md)
 
