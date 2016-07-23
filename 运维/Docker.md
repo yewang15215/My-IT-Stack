@@ -7,5 +7,7 @@
     - 仓库 Repository
 
 * 命令
-    - docker inspect IMAGE-ID
+    - `docker inspect` IMAGE-ID
         + 返回JSON 格式信息
+    - `docker save -o` image.tar image
+    - `docker load <` image.tar
